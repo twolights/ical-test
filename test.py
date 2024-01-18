@@ -17,5 +17,5 @@ event.add('dtend', datetime(2024, 1, 27, 10, 0, 0, tzinfo=pytz.timezone('Asia/Ta
 
 cal.add_component(event)
 
-with open('test.ics', 'wb') as f:
+with open('test2.ics', 'wb') as f:
     f.write(cal.to_ical())
